@@ -1,0 +1,5 @@
+qqrcoisa = input("digite qualquer coisa: ")
+print(f"é numero? {qqrcoisa.isnumeric()} \n")
+print(f"é letra? {qqrcoisa.isalpha()} \n")
+print(f"é asc II? {qqrcoisa.isascii()} \n")
+print(f"é alpha numerico? {qqrcoisa.isalnum()} \n")
